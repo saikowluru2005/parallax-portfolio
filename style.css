@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +65,14 @@ header {
     text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
 }
 
+.dsc {
+    position: absolute;
+    display: flex;
+    /* font-family: monospace; */
+    color: #ffff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
 .parallax img {
     position: absolute;
     top: 0;
@@ -76,6 +85,10 @@ header {
     position: relative;
     background-color: #003329;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sec h2 {
